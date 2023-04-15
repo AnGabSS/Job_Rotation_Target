@@ -1,0 +1,8 @@
+# Digite =====>  =( rovaf rop atartnoc eM  <=========== 
+
+texto = input('Digite seu texto aqui: ')
+
+def invertido(texto):
+    print(texto[::-1])
+
+invertido(texto)
