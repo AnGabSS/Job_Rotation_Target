@@ -7,7 +7,7 @@ for n_elementos in range(1, numero_usuario + 1, 1):
     anterior1 = anterior2
     anterior2 = atual
     if numero_usuario == atual:
-        print('Ação bem sucedida')
+        print('Seu número está na sequência de Fibonaci')
         break
-    elif numero_usuario < atual:
-        print('Ação falhou')
+    else:
+        print('Seu número não está na sequência de Fibonaci')
